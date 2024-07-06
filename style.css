@@ -1,0 +1,50 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  html, body {
+    height:100%;
+    width:100%;
+  }
+  
+  body {
+    align-content:space-around;
+    background-color:#545f5f;
+    color:#FBF5F3;
+    display:grid;
+    justify-content:center;
+    font-family:"Arial", sans-
+    serif;
+    grid-template-columns:repeat(auto
+    ,minmax(280px
+    ,1fr));
+  }
+
+
+  /* Mit insert, margin Position von Kind element mittig setzen */
+  .parent{
+    border:solid #FF7B61;
+    border-radius:10px;
+    display:flex;
+    max-width:90vw;
+    min-height:300px;
+    
+  }
+   
+
+.child{
+    border:solid #FF7B61;
+    border-radius:70px;
+    display:flex;
+    max-width:60vw;
+    min-height:300px;
+   /* insert, margin*/
+    inset: 0;
+    margin: auto;
+
+   
+
+
+}
